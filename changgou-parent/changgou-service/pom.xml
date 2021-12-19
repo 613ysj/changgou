@@ -16,6 +16,7 @@
         <module>changgou-service-goods</module>
         <module>changgou-service-file</module>
         <module>changgou-service-cannal</module>
+        <module>changgou-service-content</module>
     </modules>
 
     <dependencies>

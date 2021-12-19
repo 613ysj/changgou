@@ -21,3 +21,7 @@ feign:
 logging:
   level:
     com: debug
+mybatis:
+  configuration:
+    # 驼峰的命名支持 自动的进行映射和转换
+    map-underscore-to-camel-case: true
