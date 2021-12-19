@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/changgou-parent/changgou-common-db/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/changgou-parent/changgou-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/changgou-parent/changgou-core/changgou-core-controller/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/changgou-parent/changgou-core/changgou-core-service/src/main/java" charset="UTF-8" />
@@ -10,8 +9,6 @@
     <file url="file://$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-cannal/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-file/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/changgou-parent/changgou-web/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/changgou-parent/changgou-web/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
