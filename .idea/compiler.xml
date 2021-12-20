@@ -12,6 +12,7 @@
         <module name="changgou-service-goods-api" />
         <module name="changgou-eureka" />
         <module name="changgou-core-service" />
+        <module name="changgou-service-content-api" />
         <module name="changgou-core-controller" />
         <module name="changgou-service-content" />
         <module name="changgou-common-db" />
@@ -33,6 +34,7 @@
       <module name="changgou-service-api" target="1.8" />
       <module name="changgou-service-cannal" target="1.8" />
       <module name="changgou-service-content" target="1.8" />
+      <module name="changgou-service-content-api" target="1.8" />
       <module name="changgou-service-file" target="1.8" />
       <module name="changgou-service-goods" target="1.8" />
       <module name="changgou-service-goods-api" target="1.8" />
@@ -51,6 +53,7 @@
       <module name="changgou-eureka" options="-parameters" />
       <module name="changgou-service-cannal" options="-parameters" />
       <module name="changgou-service-content" options="-parameters" />
+      <module name="changgou-service-content-api" options="-parameters" />
       <module name="changgou-service-file" options="-parameters" />
       <module name="changgou-service-goods" options="-parameters" />
       <module name="changgou-service-goods-api" options="-parameters" />
