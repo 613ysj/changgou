@@ -15,6 +15,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  */
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
 @EnableEurekaClient
+@EnableFeignClients(basePackages = "com.changgou.goods.feign")
 //@EnableFeignClients(basePackages = "com.changgou.goods.feign")
 public class SearchApplication {
     public static void main(String[] args) {
