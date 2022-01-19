@@ -8,6 +8,7 @@ import com.changgou.search.pojo.SkuInfo;
 import com.changgou.search.service.SkuService;
 import entity.Result;
 import org.elasticsearch.index.query.QueryBuilders;
+import org.elasticsearch.search.aggregations.AggregationBuilders;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 import org.springframework.data.elasticsearch.core.aggregation.AggregatedPage;
@@ -77,6 +78,11 @@ public class SkuServiceImpl implements SkuService {
         //2.创建查询对象的 构建对象
         NativeSearchQueryBuilder nativeSearchQueryBuilder = new NativeSearchQueryBuilder();
         //3.设置查询条件 match 先分词 再进行查询 指定查询的字段和要查询的值
+
+        //3.1 设置 商品分类的分组查询条件 group by categoryName
+        // terms就相当于group by   参数指定分组的别名，将来需要根据该别名获取分组的结果值   field:指定要分组的字段名 size：指定最大的分组的值
+
+
 
         nativeSearchQueryBuilder.withQuery(QueryBuilders.matchQuery("name", keywords));
 
