@@ -25,25 +25,25 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="changgou-common" target="1.8" />
-      <module name="changgou-common-db" target="1.8" />
-      <module name="changgou-core" target="1.8" />
-      <module name="changgou-core-controller" target="1.8" />
-      <module name="changgou-core-service" target="1.8" />
-      <module name="changgou-eureka" target="1.8" />
+      <module name="changgou-common" target="1.5" />
+      <module name="changgou-common-db" target="1.5" />
+      <module name="changgou-core" target="1.5" />
+      <module name="changgou-core-controller" target="1.5" />
+      <module name="changgou-core-service" target="1.5" />
+      <module name="changgou-eureka" target="1.5" />
       <module name="changgou-parent" target="1.8" />
-      <module name="changgou-service" target="1.8" />
-      <module name="changgou-service-api" target="1.8" />
-      <module name="changgou-service-cannal" target="1.8" />
-      <module name="changgou-service-content" target="1.8" />
-      <module name="changgou-service-content-api" target="1.8" />
-      <module name="changgou-service-file" target="1.8" />
-      <module name="changgou-service-goods" target="1.8" />
-      <module name="changgou-service-goods-api" target="1.8" />
-      <module name="changgou-service-search" target="1.8" />
-      <module name="changgou-service-search-api" target="1.8" />
-      <module name="changgou-web" target="1.8" />
-      <module name="code-template" target="1.8" />
+      <module name="changgou-service" target="1.5" />
+      <module name="changgou-service-api" target="1.5" />
+      <module name="changgou-service-cannal" target="12" />
+      <module name="changgou-service-content" target="12" />
+      <module name="changgou-service-content-api" target="12" />
+      <module name="changgou-service-file" target="1.5" />
+      <module name="changgou-service-goods" target="1.5" />
+      <module name="changgou-service-goods-api" target="1.5" />
+      <module name="changgou-service-search" target="12" />
+      <module name="changgou-service-search-api" target="12" />
+      <module name="changgou-web" target="1.5" />
+      <module name="code-template" target="1.5" />
       <module name="code-template (1)" target="1.8" />
       <module name="code-template (2)" target="1.8" />
     </bytecodeTargetLevel>
